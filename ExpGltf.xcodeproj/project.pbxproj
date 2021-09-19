@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF1B4C8A1C154A26007E62C2 /* StringUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF1B4C891C154A26007E62C2 /* StringUtil.mm */; };
+		AFCA0EF51BBBA48D002977FD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCA0EF41BBBA48D002977FD /* Cocoa.framework */; };
+		AFCA0EFF1BBBA48D002977FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFCA0EFD1BBBA48D002977FD /* InfoPlist.strings */; };
+		AFCA0F071BBBA634002977FD /* ExpCollada.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFCA0F061BBBA634002977FD /* ExpCollada.cpp */; };
+		AFCA0F131BBBA694002977FD /* MQ3DLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFCA0F081BBBA694002977FD /* MQ3DLib.cpp */; };
+		AFCA0F141BBBA694002977FD /* MQBasePlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFCA0F0A1BBBA694002977FD /* MQBasePlugin.cpp */; };
+		AFCA0F151BBBA694002977FD /* MQInit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFCA0F0C1BBBA694002977FD /* MQInit.cpp */; };
+		AFCA0F161BBBA694002977FD /* MQPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFCA0F0D1BBBA694002977FD /* MQPlugin.cpp */; };
+		AFCA0F171BBBA694002977FD /* MQSetting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFCA0F0F1BBBA694002977FD /* MQSetting.cpp */; };
+		AFCA0F181BBBA694002977FD /* MQWidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFCA0F111BBBA694002977FD /* MQWidget.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF1B4C881C154A26007E62C2 /* StringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringUtil.h; path = ../../osx/StringUtil.h; sourceTree = "<group>"; };
+		AF1B4C891C154A26007E62C2 /* StringUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = StringUtil.mm; path = ../../osx/StringUtil.mm; sourceTree = "<group>"; };
+		AFCA0EF11BBBA48D002977FD /* ExpCollada.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpCollada.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCA0EF41BBBA48D002977FD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AFCA0EF71BBBA48D002977FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFCA0EF81BBBA48D002977FD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AFCA0EF91BBBA48D002977FD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AFCA0EFC1BBBA48D002977FD /* ExpCollada-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExpCollada-Info.plist"; sourceTree = "<group>"; };
+		AFCA0EFE1BBBA48D002977FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFCA0F001BBBA48D002977FD /* ExpCollada-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExpCollada-Prefix.pch"; sourceTree = "<group>"; };
+		AFCA0F061BBBA634002977FD /* ExpCollada.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExpCollada.cpp; sourceTree = SOURCE_ROOT; };
+		AFCA0F081BBBA694002977FD /* MQ3DLib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MQ3DLib.cpp; path = ../../MQ3DLib.cpp; sourceTree = "<group>"; };
+		AFCA0F091BBBA694002977FD /* MQ3DLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MQ3DLib.h; path = ../../MQ3DLib.h; sourceTree = "<group>"; };
+		AFCA0F0A1BBBA694002977FD /* MQBasePlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MQBasePlugin.cpp; path = ../../MQBasePlugin.cpp; sourceTree = "<group>"; };
+		AFCA0F0B1BBBA694002977FD /* MQBasePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MQBasePlugin.h; path = ../../MQBasePlugin.h; sourceTree = "<group>"; };
+		AFCA0F0C1BBBA694002977FD /* MQInit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MQInit.cpp; path = ../../MQInit.cpp; sourceTree = "<group>"; };
+		AFCA0F0D1BBBA694002977FD /* MQPlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MQPlugin.cpp; path = ../../MQPlugin.cpp; sourceTree = "<group>"; };
+		AFCA0F0E1BBBA694002977FD /* MQPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MQPlugin.h; path = ../../MQPlugin.h; sourceTree = "<group>"; };
+		AFCA0F0F1BBBA694002977FD /* MQSetting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MQSetting.cpp; path = ../../MQSetting.cpp; sourceTree = "<group>"; };
+		AFCA0F101BBBA694002977FD /* MQSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MQSetting.h; path = ../../MQSetting.h; sourceTree = "<group>"; };
+		AFCA0F111BBBA694002977FD /* MQWidget.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MQWidget.cpp; path = ../../MQWidget.cpp; sourceTree = "<group>"; };
+		AFCA0F121BBBA694002977FD /* MQWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MQWidget.h; path = ../../MQWidget.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFCA0EEE1BBBA48D002977FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCA0EF51BBBA48D002977FD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFCA0EE81BBBA48D002977FD = {
+			isa = PBXGroup;
+			children = (
+				AFCA0EFA1BBBA48D002977FD /* ExpCollada */,
+				AFCA0EF31BBBA48D002977FD /* Frameworks */,
+				AFCA0EF21BBBA48D002977FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFCA0EF21BBBA48D002977FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFCA0EF11BBBA48D002977FD /* ExpCollada.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFCA0EF31BBBA48D002977FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFCA0EF41BBBA48D002977FD /* Cocoa.framework */,
+				AFCA0EF61BBBA48D002977FD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFCA0EF61BBBA48D002977FD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFCA0EF71BBBA48D002977FD /* Foundation.framework */,
+				AFCA0EF81BBBA48D002977FD /* CoreData.framework */,
+				AFCA0EF91BBBA48D002977FD /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AFCA0EFA1BBBA48D002977FD /* ExpCollada */ = {
+			isa = PBXGroup;
+			children = (
+				AFCA0F061BBBA634002977FD /* ExpCollada.cpp */,
+				AF1B4C891C154A26007E62C2 /* StringUtil.mm */,
+				AF1B4C881C154A26007E62C2 /* StringUtil.h */,
+				AFCA0F191BBBA69A002977FD /* SDK */,
+				AFCA0EFB1BBBA48D002977FD /* Supporting Files */,
+			);
+			name = ExpCollada;
+			path = osx;
+			sourceTree = "<group>";
+		};
+		AFCA0EFB1BBBA48D002977FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFCA0EFC1BBBA48D002977FD /* ExpCollada-Info.plist */,
+				AFCA0EFD1BBBA48D002977FD /* InfoPlist.strings */,
+				AFCA0F001BBBA48D002977FD /* ExpCollada-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFCA0F191BBBA69A002977FD /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				AFCA0F081BBBA694002977FD /* MQ3DLib.cpp */,
+				AFCA0F091BBBA694002977FD /* MQ3DLib.h */,
+				AFCA0F0A1BBBA694002977FD /* MQBasePlugin.cpp */,
+				AFCA0F0B1BBBA694002977FD /* MQBasePlugin.h */,
+				AFCA0F0C1BBBA694002977FD /* MQInit.cpp */,
+				AFCA0F0D1BBBA694002977FD /* MQPlugin.cpp */,
+				AFCA0F0E1BBBA694002977FD /* MQPlugin.h */,
+				AFCA0F0F1BBBA694002977FD /* MQSetting.cpp */,
+				AFCA0F101BBBA694002977FD /* MQSetting.h */,
+				AFCA0F111BBBA694002977FD /* MQWidget.cpp */,
+				AFCA0F121BBBA694002977FD /* MQWidget.h */,
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFCA0EF01BBBA48D002977FD /* ExpCollada */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFCA0F031BBBA48D002977FD /* Build configuration list for PBXNativeTarget "ExpCollada" */;
+			buildPhases = (
+				AFCA0EED1BBBA48D002977FD /* Sources */,
+				AFCA0EEE1BBBA48D002977FD /* Frameworks */,
+				AFCA0EEF1BBBA48D002977FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExpGltf;
+			productName = ExpCollada;
+			productReference = AFCA0EF11BBBA48D002977FD /* ExpCollada.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFCA0EE91BBBA48D002977FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = AFCA0EEC1BBBA48D002977FD /* Build configuration list for PBXProject "ExpCollada" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFCA0EE81BBBA48D002977FD;
+			productRefGroup = AFCA0EF21BBBA48D002977FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFCA0EF01BBBA48D002977FD /* ExpCollada */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFCA0EEF1BBBA48D002977FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCA0EFF1BBBA48D002977FD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFCA0EED1BBBA48D002977FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCA0F171BBBA694002977FD /* MQSetting.cpp in Sources */,
+				AFCA0F181BBBA694002977FD /* MQWidget.cpp in Sources */,
+				AF1B4C8A1C154A26007E62C2 /* StringUtil.mm in Sources */,
+				AFCA0F131BBBA694002977FD /* MQ3DLib.cpp in Sources */,
+				AFCA0F161BBBA694002977FD /* MQPlugin.cpp in Sources */,
+				AFCA0F151BBBA694002977FD /* MQInit.cpp in Sources */,
+				AFCA0F071BBBA634002977FD /* ExpCollada.cpp in Sources */,
+				AFCA0F141BBBA694002977FD /* MQBasePlugin.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFCA0EFD1BBBA48D002977FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFCA0EFE1BBBA48D002977FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFCA0F011BBBA48D002977FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AFCA0F021BBBA48D002977FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AFCA0F041BBBA48D002977FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osx/ExpCollada-Prefix.pch";
+				INFOPLIST_FILE = "osx/ExpCollada-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		AFCA0F051BBBA48D002977FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osx/ExpCollada-Prefix.pch";
+				INFOPLIST_FILE = "osx/ExpCollada-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFCA0EEC1BBBA48D002977FD /* Build configuration list for PBXProject "ExpCollada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCA0F011BBBA48D002977FD /* Debug */,
+				AFCA0F021BBBA48D002977FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFCA0F031BBBA48D002977FD /* Build configuration list for PBXNativeTarget "ExpCollada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCA0F041BBBA48D002977FD /* Debug */,
+				AFCA0F051BBBA48D002977FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFCA0EE91BBBA48D002977FD /* Project object */;
+}
